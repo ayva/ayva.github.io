@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Olga Ayvazyan</title>
+  <meta name="description" content="Olga Ayvazyan. CV.">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("theme");
+        var dark = t === "dark" || ((!t || t === "system") && matchMedia("(prefers-color-scheme: dark)").matches);
+        document.documentElement.classList.toggle("dark", dark);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <nav class="site-nav" aria-label="Site">
+    <div class="nav-pill cut">
+      <ul class="nav-links">
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a class="nav-link" href="cv.html" aria-current="page">CV</a></li>
+      </ul>
+      <span class="nav-rule" aria-hidden="true"></span>
+      <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme">
+        <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z"/>
+        </svg>
+        <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <main class="site-main cv-page" id="top">
+    <header class="hero cv-hero">
+      <div class="identity reveal">
+        <a class="avatar cv-download-square" href="cv.pdf" download="Olga-Ayvazyan-CV.pdf">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.6" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="square" d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/>
+          </svg>
+          <span>Download PDF</span>
+        </a>
+        <div class="identity-copy">
+          <div class="identity-name">
+            <span class="gem" aria-hidden="true"></span>
+            <h1>Olga Ayvazyan</h1>
+          </div>
+          <ul class="cv-contacts" aria-label="Contacts">
+            <li><a class="cv-contact" href="mailto:olga.ayva@gmail.com">olga.ayva@gmail.com</a></li>
+            <li class="cv-contact">Austin, TX</li>
+            <li><a class="cv-contact" href="https://www.linkedin.com/in/olgasayva">linkedin.com/in/olgasayva <span class="ext" aria-hidden="true">↗</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="intro reveal">
+        <p class="cv-summary">I am passionate about building products people use every day and are happy to pay for. As founder and head of product at Speakerly AI, I build AI products end to end, from the first user problem through shipping and go-to-market. I bring a product leader's focus on tradeoffs and outcomes, and a founder's ownership of the whole result.</p>
+        <p class="cv-summary cv-tools">AI tools: Cursor, Claude, GPT for automation, reporting, analysis, design, building and deploying.</p>
+      </div>
+    </header>
+
+    <section class="section" id="experience" aria-labelledby="experience-heading">
+      <div class="section-head reveal">
+        <span class="section-index">01 /</span>
+        <h2 id="experience-heading">Experience</h2>
+        <span class="section-rule" aria-hidden="true"></span>
+      </div>
+      <div class="timeline">
+        <span class="timeline-rail" aria-hidden="true"></span>
+        <ul class="timeline-list">
+          <li class="job is-current">
+            <p class="when">2022</p>
+            <span class="job-mark pulse-dot"></span>
+            <div class="job-body">
+              <h3>Speakerly AI, Founder &amp; Head of Product</h3>
+              <p class="where">Austin</p>
+              <ul>
+                <li>Build Speakerly, an AI English tutor for learners, schools, and organizations.</li>
+                <li>Speakerly scores speech on sounds, stress, pacing, fillers, grammar, and vocabulary, with feedback on voice recordings in American or British English.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="job">
+            <p class="when">2020</p>
+            <span class="job-mark"></span>
+            <div class="job-body">
+              <h3>FarmTogether, Head of Product</h3>
+              <p class="where">Austin</p>
+              <ul>
+                <li>Envisioned and delivered an end-to-end investment platform: marketplace, investor qualification, compliance, operations, payment processing, payment method verification, and underwriting automation for investment offerings.</li>
+                <li>Helped scale to over $150M in assets under management.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="job">
+            <p class="when">2018</p>
+            <span class="job-mark"></span>
+            <div class="job-body">
+              <h3>FarmTogether, Senior Product Manager</h3>
+              <p class="where">San Francisco</p>
+              <ul>
+                <li>Joined as the first employee, hired the engineering and design team, and launched FarmTogether's investment platform for US farmland from zero to one.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="job">
+            <p class="when">2016</p>
+            <span class="job-mark"></span>
+            <div class="job-body">
+              <h3>Pronounce, Software Engineer</h3>
+              <p class="where">San Francisco</p>
+              <ul>
+                <li>Built a Chrome extension for English learners.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="job">
+            <p class="when">2013</p>
+            <span class="job-mark"></span>
+            <div class="job-body">
+              <h3>Yandex, Product Manager</h3>
+              <p class="where">Moscow</p>
+              <ul>
+                <li>Helped launch Yandex Browser for tablets, from zero to one.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="job">
+            <p class="when">2011</p>
+            <span class="job-mark"></span>
+            <div class="job-body">
+              <h3>DevConf, Program Committee</h3>
+              <p class="where">Moscow</p>
+            </div>
+          </li>
+          <li class="job">
+            <p class="when">2010</p>
+            <span class="job-mark"></span>
+            <div class="job-body">
+              <h3>ING Bank (Eurasia), Internship</h3>
+              <p class="where">Moscow</p>
+              <ul>
+                <li>Interned in Capital Markets, Corporate Loans, Operations, and Risk Management departments in a year-long internship program.</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <script src="site.js"></script>
+</body>
+</html>

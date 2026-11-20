@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Olga Ayvazyan</title>
+  <meta name="description" content="Olga Ayvazyan. I build products people use, and products they pay for.">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("theme");
+        var dark = t === "dark" || ((!t || t === "system") && matchMedia("(prefers-color-scheme: dark)").matches);
+        document.documentElement.classList.toggle("dark", dark);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <nav class="site-nav" aria-label="Site">
+    <div class="nav-pill cut">
+      <ul class="nav-links">
+        <li><a class="nav-link" href="index.html" aria-current="page">Home</a></li>
+        <li><a class="nav-link" href="cv.html">CV</a></li>
+      </ul>
+      <span class="nav-rule" aria-hidden="true"></span>
+      <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch color theme">
+        <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z"/>
+        </svg>
+        <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <main class="site-main" id="top">
+    <header class="hero">
+      <div class="hero-canvas" data-hero-canvas aria-hidden="true">
+        <div class="hero-glow"></div>
+        <canvas class="hero-webgl"></canvas>
+      </div>
+      <div class="identity reveal">
+        <img class="avatar" src="olga.jpg" width="200" height="200" alt="Olga Ayvazyan">
+        <div class="identity-copy">
+          <div class="identity-name">
+            <span class="gem" aria-hidden="true"></span>
+            <h1>Olga Ayvazyan</h1>
+          </div>
+          <a class="contact" href="mailto:olga.ayva@gmail.com">
+            <span class="gem" aria-hidden="true"></span>
+            olga.ayva@gmail.com
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+      <div class="intro reveal">
+        <p>I like building products people actually use, and products they pay for.</p>
+        <p>The one I am building now helps people practice spoken English. I would like the next product role to be in Austin, or remote from here.</p>
+      </div>
+    </header>
+
+    <section class="section" id="experience" aria-labelledby="experience-heading">
+      <div class="section-head reveal">
+        <span class="section-index">01 /</span>
+        <h2 id="experience-heading">Experience</h2>
+        <span class="section-rule" aria-hidden="true"></span>
+      </div>
+      <div class="area-grid">
+        <article class="area spotlight cut cut-hover reveal">
+          <h3><span class="new-tag"><span class="new-mark" aria-hidden="true"></span>New</span><span>Building AI products</span></h3>
+          <p>LLMs, agents, context engineering</p>
+          <p>evals, guardrails, quality bar</p>
+          <p>voice AI, problem to launch</p>
+        </article>
+        <article class="area spotlight cut cut-hover reveal" style="--reveal-delay: 70ms">
+          <h3>Working with AI agents</h3>
+          <p>Cursor, Claude, GPT</p>
+          <p>prototyping, automation, analysis</p>
+          <p>design, building, deploying</p>
+        </article>
+        <article class="area spotlight cut cut-hover reveal" style="--reveal-delay: 140ms">
+          <h3>Product Strategy</h3>
+          <p>vision, sequencing, tradeoffs</p>
+          <p>customer discovery, sharp problems</p>
+          <p>ambiguity to clarity, high agency</p>
+        </article>
+        <article class="area spotlight cut cut-hover reveal" style="--reveal-delay: 210ms">
+          <h3>Measurement</h3>
+          <p>outcomes, metrics, north star</p>
+          <p>experiments, funnels, retention</p>
+          <p>SQL, dashboards</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="work" aria-labelledby="work-heading">
+      <div class="section-head reveal">
+        <span class="section-index">02 /</span>
+        <h2 id="work-heading">Work</h2>
+        <span class="section-rule" aria-hidden="true"></span>
+        <a class="section-action cut cut-hover" href="cv.html">CV <span class="arrow" aria-hidden="true">→</span></a>
+      </div>
+      <div class="timeline reveal" data-timeline style="--reveal-delay: 80ms">
+        <span class="timeline-rail" aria-hidden="true"></span>
+        <ul class="timeline-list" data-timeline-visible>
+          <li class="job is-current">
+            <p class="when">2022</p>
+            <span class="job-mark pulse-dot"></span>
+            <div class="job-body">
+              <h3>Speakerly AI, Founder &amp; Head of Product</h3>
+              <p class="where">Austin</p>
+            </div>
+          </li>
+          <li class="job">
+            <p class="when">2020</p>
+            <span class="job-mark"></span>
+            <div class="job-body">
+              <h3>FarmTogether, Head of Product</h3>
+              <p class="where">Austin</p>
+            </div>
+          </li>
+          <li class="job">
+            <p class="when">2018</p>
+            <span class="job-mark"></span>
+            <div class="job-body">
+              <h3>FarmTogether, Senior Product Manager</h3>
+              <p class="where">San Francisco</p>
+            </div>
+          </li>
+          <li class="job">
+            <p class="when">2016</p>
+            <span class="job-mark"></span>
+            <div class="job-body">
+              <h3>Pronounce, Software Engineer</h3>
+              <p class="where">San Francisco</p>
+            </div>
+          </li>
+          <li class="job">
+            <p class="when">2013</p>
+            <span class="job-mark"></span>
+            <div class="job-body">
+              <h3>Yandex, Product Manager</h3>
+              <p class="where">Moscow</p>
+            </div>
+          </li>
+          <li class="job">
+            <p class="when">2011</p>
+            <span class="job-mark"></span>
+            <div class="job-body">
+              <h3>DevConf, Program Committee</h3>
+              <p class="where">Moscow</p>
+            </div>
+          </li>
+          <li class="job">
+            <p class="when">2010</p>
+            <span class="job-mark"></span>
+            <div class="job-body">
+              <h3>ING Bank (Eurasia), Internship</h3>
+              <p class="where">Moscow</p>
+            </div>
+          </li>
+        </ul>
+        <div class="timeline-more" data-timeline-more>
+          <div class="timeline-more-clip">
+            <ul class="timeline-list" inert></ul>
+          </div>
+        </div>
+        <button type="button" class="show-more" data-timeline-toggle hidden aria-expanded="false">
+          <span data-timeline-label>Show more</span>
+          <span class="chev" aria-hidden="true">↓</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-heading">
+      <div class="section-head reveal">
+        <span class="section-index">03 /</span>
+        <h2 id="projects-heading">Projects</h2>
+        <span class="section-rule" aria-hidden="true"></span>
+      </div>
+      <div class="project-grid" data-projects>
+        <article class="project-card spotlight cut cut-hover reveal">
+          <a class="project-shot" href="https://giftgrows.com/" tabindex="-1" aria-hidden="true">
+            <img src="giftgrows.jpg" alt="GiftGrows homepage" width="1440" height="675">
+          </a>
+          <div class="project-body">
+            <h3><span class="new-tag"><span class="new-mark" aria-hidden="true"></span>New</span><a href="https://giftgrows.com/">GiftGrows</a></h3>
+            <p>A free page a parent makes for a child and shares with family and friends, so they see how the Trump Account works and give on the official site, or send the gift to the parent to deposit. GiftGrows is not the Treasury, the IRS, or the Trump Accounts program, and it never holds the gift money.</p>
+            <div class="project-links">
+              <a class="chip cut cut-hover" href="https://giftgrows.com/">Site <span class="ext">↗</span></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+  <script src="site.js"></script>
+</body>
+</html>
